@@ -1,0 +1,122 @@
+.sidebar-link {
+    color: rgb(255, 255, 255); /* Set font color to white */
+    text-decoration: none; /* Remove underline */
+  }
+
+.sidebar {
+  background-color: aqua; /* Set the desired background color */
+  width: 200px; /* Or your desired width */
+  height: 100vh; /* Ensure the sidebar always covers 100% of the viewport height */
+  min-height: 100vh; /* Ensure the sidebar stretches to at least the viewport height */
+  position: fixed; /* Make the sidebar fixed on the screen */
+  top: 0; /* Align the sidebar to the top */
+  left: 0; /* Align the sidebar to the left */
+  color: black;
+  overflow: hidden; /* Hide overflow content */
+  transition: width 0.3s ease; /* Smooth transition for width resizing */
+}
+
+/* Collapsed sidebar styling */
+.sidebar.collapsed {
+  width: 60px; /* Width when the sidebar is collapsed */
+}
+
+
+
+
+  .sidebar {
+    transition: width 0.3s ease;
+  }
+
+
+  .sidebar.collapsed {
+    width: 60px;
+  }
+  
+  .menu-item img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  /* For Select component styling */
+.select .select__control {
+    background-color: #220744; /* Optional: Set background color */
+    border: 1px solid #ccc; /* Optional: Set border color */
+    color:black;
+  }
+  
+  .select .select__single-value {
+    color: black; /* Change to your desired color (black or blue) */
+  }
+  
+  .select .select__placeholder {
+    color: #888; /* Placeholder color */
+  }
+  
+  .select .select__indicator {
+    color: black; /* Change to your desired color (black or blue) */
+  }
+
+ 
+
+
+
+.custom-select__option {
+  font-size: large; 
+  color: rgb(24, 11, 144) !important; /* Change the font color for options */
+}
+
+.custom-select__single-value {
+  color: rgb(80, 9, 134); /* Change the font color for the selected value */
+}
+
+.custom-select__placeholder {
+  color: black; /* Change the font color for the placeholder */
+  background-color: aqua !important;
+}
+
+.custom-select__control {
+  background-color: black; /* Change the background color of the control */
+  border: 1px solid #ccc; /* Optional: Change the border style of the control */
+  box-shadow: none; /* Optional: Remove the box shadow */
+}
+
+
+/* sidebar/Sidebar.css */
+.sidebar {
+  /* Other styles */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+
+.sidebar .sidebar-resizer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: -110%;
+  width: 300%;
+  height: calc(100% - 190%); /* Adjust based on logo size */
+  cursor: ew-resize;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure resizer stays behind other elements */
+}
+
+/* Add z-index to the logo container to make it visible above the resizer */
+.sidebar .sidebar-logo {
+  z-index: 2; /* Set a higher z-index so it appears above the resizer */
+  position: relative; /* Ensure it's positioned correctly within the sidebar */
+}
+
+/* Style for the logo image */
+.sidebar-logo img {
+  width: 100px; /* Adjust logo size */
+  margin: 10px auto;
+  display: block;
+}

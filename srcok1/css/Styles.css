@@ -1,0 +1,90 @@
+/* react-select.css */
+.select__control {
+    height: 40px; /* Adjust height as needed */
+  }
+  
+  .select__input {
+    margin: 0; /* Ensure the input aligns with the control */
+  }
+  
+  .select__single-value {
+    line-height: 40px; /* Center the selected value vertically */
+  }
+  .table-cell {
+    padding: 8px;
+  }
+  
+  .align-center {
+    text-align: center;
+  }
+  
+  .align-left {
+    text-align: left;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
+  .width-5 {
+    width: 5%;
+  }
+  
+  .width-10 {
+    width: 10%;
+  }
+  
+  .width-15 {
+    width: 15%;
+  }
+  
+  .width-20 {
+    width: 20%;
+  }
+  
+
+  /* Reduces the top margin of the card to bring it closer to other elements */
+.card {
+    margin-top: -3rem; /* Adjust this value to your needs */
+     
+  } 
+
+  .card {
+    margin-left: -2.25rem !important;
+  }
+  .card {
+    margin-right: -2.0rem !important;
+  }
+  
+  /* Reduces the margin below the card header to bring it closer to the buttons */
+
+  .card-header
+  {
+    margin-left: -0.4rem !important;
+  }
+  /* Reduces the gap between buttons */
+  .card-header {
+    margin-bottom: 0rem !important; /* Adjust this value to your needs */
+  }
+.card-header{
+  margin-top: 0rem !important;
+}
+.btn {
+    margin-top: -1.75rem !important;
+  }
+.btn {
+  margin-bottom: -1.5rem !important;
+}
+
+  .text-right .btn {
+    margin-right: -0.75rem !important;
+   /*   padding: 0.1rem 0.5rem !important; */
+  }
+  
+  /* Optionally, you can adjust padding for buttons if needed */
+   
+  /* Adjust the size of the icons if necessary */
+  .icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+  }

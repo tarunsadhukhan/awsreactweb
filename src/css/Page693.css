@@ -1,0 +1,94 @@
+.table {
+    margin-bottom: 0; /* Ensure no margin at the bottom of the table */
+  }
+  
+ 
+  .table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #08295d; /* Ensures the header stays visible */
+    color: #ffffff; 
+    z-index: 1; /* Keep header above the rest of the content */
+    border: 1px solid #dee2e6;
+    box-shadow: inset 0px -1px 0px 0px #dee2e6;
+  }
+  
+  /* Add rounded borders only to the first and last header cells */
+  .table thead th:first-child {
+    border-top-left-radius: 10px;
+  }
+  .table thead th:last-child {
+    border-top-right-radius: 10px;
+  }
+  
+  /* Customize the striped rows - odd and even rows */
+/*
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #9b1717 !important;  
+  }
+  
+  .table-striped tbody tr:nth-of-type(even) {
+    background-color: #e6f7ff !important;  
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #40ede7 !important;  
+  }
+  */
+
+  /*
+  .table-striped>tbody>tr:nth-child(odd)>td,
+  .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #a2abe1;
+    color: white;
+  }
+  .table-striped>tbody>tr:nth-child(even)>td,
+  .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: #73bef0;
+    color: white;
+  }
+    */
+    /*
+  .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #82f3eb;
+  } 
+*/
+
+/* Apply styles to table rows inside the table body */
+
+/* Higher specificity */
+
+
+   .bg-red {
+    --bs-table-bg: rgb(248, 148, 144) !important; /* Override Bootstrap's background color */
+    color: white !important;        /* Ensure text color is white */
+  }
+  .bg-blue {
+    --bs-table-bg: rgb(167, 167, 247) !important; /* Override Bootstrap's background color */
+    color: white !important;        /* Ensure text color is white */
+  }
+
+  .bg-green {
+    --bs-table-bg: rgb(183, 232, 176);
+    color: white;
+  }
+
+  .bg-yellow {
+    --bs-table-bg: rgb(227, 248, 177);
+    color: white;
+  }
+
+
+  .loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  

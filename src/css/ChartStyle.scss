@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+  }
+  
+  .summary-table, .detailed-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .summary-table th, .detailed-table th, .summary-table td, .detailed-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .summary-table tr:hover, .detailed-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .chart-btn, .filter-btn, .close-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .chart-btn:hover, .filter-btn:hover, .close-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .entry-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .entry-form button {
+    margin-right: 10px;
+  }
+  
+  .dataset-controls {
+    margin-top: 10px;
+  }
+  
+  .dataset-controls label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .dataset-controls input {
+    margin-right: 5px;
+  }
+  

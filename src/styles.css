@@ -1,0 +1,10 @@
+/* styles.css */
+.custom-sidebar {
+    background-color: #1b456e; /* Custom blue */
+    color: #FFFFFF; /* White text */
+    padding: 15px;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+  }
+  

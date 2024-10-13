@@ -1,0 +1,218 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-left {
+    width: 100%;
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-image {
+    width: 100%;
+    max-width: 750px;
+  }
+  
+  .login-text-overlay {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-text-overlay h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .login-text-overlay p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .login-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .login-logo .logo-image {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .lform-group {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-bottom: 15px;
+    width: 150%;
+  }
+  
+  .lform-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .lform-control {
+    width: 50%; /* Set to 80% of the parent container's width */
+    max-width: 800px; /* Set a maximum width */
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+  .lbtn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .lbtn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+
+
+
+
+  .login-container {
+    display: flex;
+    height: 100vh; /* Set full viewport height */
+  }
+  
+  .login-left {
+    position: relative;
+    width: 50%; /* Take 50% of the page width */
+    height: 100%; /* Take full height */
+  }
+  
+  .login-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
+  .login-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the form side */
+  }
+  
+  .login-logo img {
+    width: 100px; /* Adjust logo size */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+   
+  .lbtn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .lbtn {
+    width: 100%;
+    max-width: 2000px; /* Same width as inputs */
+    padding: 3px; /* Increase padding for height */
+    font-size: 1em; /* Adjust the font size for the button */
+    border-radius: 8px;
+    background-color: #007bff; /* Adjust button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: -20px;
+  }
+  
+ 
+
+  .lbtn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  .lform-group label {
+    font-size: 1.1em; /* Make labels slightly larger */
+  }
+  
+  .lform-control::placeholder {
+    font-size: 0.9em; /* Placeholder text size */
+    color: #888; /* Placeholder color */
+  }
+  
+  .lform-control {
+    width: 80%; /* Increase width to 80% of the parent container */
+    max-width: 800px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-left: -20px;
+}
+
+.linput-large {
+  width: 350px; /* Set larger width */
+  padding: 6px;
+  margin-bottom: 5px; /* Space below input */
+}
+.lbtn-small {
+  width: 350px; /* Set button width to be smaller than second input */
+  padding: 6px; /* Smaller padding */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
